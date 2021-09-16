@@ -1,6 +1,6 @@
 {
   "users": [
-    {
+    { "userName": "sam86",
       "email": "barkersam01@gmail.com",
       "name": "Sam Barker",
       "password": 1234,
@@ -15,7 +15,7 @@
       "services": "General practice, offering wellness packages, vaccines, a in house labratory, radiology, and surgery including dentistry.",
       "hours": "Walk-in clinic open Monday-Friday 9am-4pm",
       "phoneNumber": "615-834-6441",
-      "url": "images/Animal house vet.jpg"
+      "url": "images/Animal-house-vet.jpg"
     },
     {
       "id": 2,
@@ -33,7 +33,7 @@
       "services": "By appointment only. Wellness, Vaccines, diagnostics, spay and neuter, dentistry, soft tissue surgery.",
       "hours": "Monday-Friady 7:30am-5:30pm, Saturday 8am-1pm",
       "phoneNumber": "615-750-2377",
-      "url": "images/5 Points animal hospital.jpg"
+      "url": "images/5-Points-animal-hospital.jpg"
     },
     {
       "id": 4,
@@ -42,7 +42,7 @@
       "services": "Emergency room, board certified specialist in Cardiology, Dermatology, Advanced Imaging, Internal Medicine, Neurology, Oncology, Rehabilitation, and Surgery.",
       "hours": "Open 24Hrs for Emergencies. Specialty services by appointment with referal.",
       "phoneNumber": "615-386-0107",
-      "url": "images/Nashville Vetinary Specialist and Animal Emergency.jpg"
+      "url": "images/Nashville-Vetinary-Specialist-and-Animal-Emergency.jpg"
     },
     {
       "id": 5,
