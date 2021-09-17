@@ -1,6 +1,7 @@
 {
   "users": [
-    { "userName": "sam86",
+    {
+      "userName": "sam86",
       "email": "barkersam01@gmail.com",
       "name": "Sam Barker",
       "password": 1234,
@@ -52,7 +53,38 @@
       "hours": "Monday-Friday 6pm-7am, Weekends 24Hrs.",
       "phoneNumber": "615-383-2600",
       "url": "images/blue-pearl-animal-hospital.jpg"
+    },
+    {
+      "name": "dfadsf",
+      "address": "fdsafd",
+      "services": "fadfad",
+      "hours": "dsads",
+      "phoneNumber": "",
+      "id": 6
     }
-    
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "userId": 1,
+      "clinicId": 1,
+      "comment": "This clinic is very clean and friendly, and the staff is very knowledgable."
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "clinicId": 1,
+      "comment": "They are fantastic and offer everything I need to keep my pet happy and healthy."
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "clinicId": 2,
+      "comment": "How are you."
+    },
+    {
+      "comment": "Hello",
+      "id": 4
+    }
   ]
 }
