@@ -2,10 +2,17 @@
   "users": [
     {
       "userName": "sam86",
-      "email": "barkersam01@gmail.com",
+      "email": "sam12@gmail.com",
       "name": "Sam Barker",
-      "password": 1234,
+      "password": "spud",
       "id": 1
+    },
+    {
+      "userName": "bob86",
+      "email": "bob01@gmail.com",
+      "name": "bobby",
+      "password": "abcd",
+      "id": 2
     }
   ],
   "clinics": [
@@ -55,36 +62,92 @@
       "url": "images/blue-pearl-animal-hospital.jpg"
     },
     {
-      "name": "dfadsf",
-      "address": "fdsafd",
-      "services": "fadfad",
-      "hours": "dsads",
-      "phoneNumber": "",
-      "id": 6
+      "id": 6,
+      "name": "Mobley Vet Clinic",
+      "address": "4709 Gallatin Pike Nashville, TN 37216",
+      "services": "Wellness and Prevention, Testing and Diagnostics, Advanced Care, Surgical Procedures, Urgent Care, and Pet Boarding.",
+      "hours": "Monday-Friday 7:30am-6pm, Saturday 7:30am-3pm.",
+      "phoneNumber": "615-262-0415",
+      "url": "images/Mobley-Clinic.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Hermitage Animal Clinic",
+      "address": " 4231 Lebanon Pike Hermitage, TN 37076",
+      "services": "Preventative and Wellness care, Surgery, Emergency and Urgent Care, Diagnostics and additional services like Pet boarding and Behavioral Counseling.",
+      "hours": "Monday-Friday 7am-6pm, Saturday 8am-12pm.",
+      "phoneNumber": "615-889-9150",
+      "url": "images/Hermitage-Animal-Clinic.png"
     }
   ],
   "reviews": [
     {
-      "id": 1,
       "userId": 1,
-      "clinicId": 1,
-      "comment": "This clinic is very clean and friendly, and the staff is very knowledgable."
+      "clinicId": 7,
+      "comment": "Friendly service and waits are not too long.",
+      "id": 5
     },
     {
-      "id": 2,
-      "userId": 1,
-      "clinicId": 1,
-      "comment": "They are fantastic and offer everything I need to keep my pet happy and healthy."
+      "id": 8,
+      "comment": "Testing!"
     },
     {
-      "id": 3,
+      "id": 14,
+      "comment": "Testing!"
+    },
+    {
+      "id": 15,
+      "comment": "Testing!"
+    },
+    {
+      "userId": 1,
+      "comment": "Testing",
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "comment": "Test",
+      "id": 17
+    },
+    {
+      "id": 18,
+      "comment": "hello"
+    },
+    {
+      "id": 20,
       "userId": 1,
       "clinicId": 2,
-      "comment": "How are you."
+      "comment": "I love this clinic"
     },
     {
-      "comment": "Hello",
-      "id": 4
+      "id": 21,
+      "userId": 1,
+      "clinicId": 1,
+      "comment": "I love this place and the staff are friendly!"
+    },
+    {
+      "userId": 1,
+      "clinicId": 6,
+      "comment": "Testing!",
+      "id": 22
+    },
+    {
+      "id": 23,
+      "userId": 1,
+      "clinicId": 3,
+      "comment": "I love this place!"
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "userId": 1,
+      "clinicId": 1
+    },
+    {
+      "clinicId": 6,
+      "userId": 1,
+      "id": 2
     }
   ]
 }
