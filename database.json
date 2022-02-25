@@ -13,12 +13,19 @@
       "name": "bobby",
       "password": "abcd",
       "id": 2
+    },
+    {
+      "userName": "faithm",
+      "email": "faithm@home.com",
+      "name": "faith",
+      "password": "1111",
+      "id": 3
     }
   ],
   "clinics": [
     {
       "id": 1,
-      "name": "Animal House Vetinary Clinic",
+      "name": "Animal House Veterinary Clinic",
       "address": "223 Largo Dr Nashville,TN 37211",
       "services": "General practice, offering wellness packages, vaccines, a in house labratory, radiology, and surgery including dentistry.",
       "hours": "Walk-in clinic open Monday-Friday 9am-4pm",
@@ -27,7 +34,7 @@
     },
     {
       "id": 2,
-      "name": "Brentwood Vetinary Clinic",
+      "name": "Brentwood Veterinary Clinic",
       "address": "5009 Harpeth Dr Brentwood,TN 37027",
       "services": "By appointment only. Wellness, Vaccines, spay and neuter, dentistry, and accupuncture.",
       "hours": "Monday-Friady 7am-6pm, Saturday 8am-1pm",
@@ -45,7 +52,7 @@
     },
     {
       "id": 4,
-      "name": "Nashville Vetinary Specialist and Animal Emergency",
+      "name": "Nashville Veterinary Specialist and Animal Emergency",
       "address": "2971 Sidco Drive Nashville,TN 37204",
       "services": "Emergency room, board certified specialist in Cardiology, Dermatology, Advanced Imaging, Internal Medicine, Neurology, Oncology, Rehabilitation, and Surgery.",
       "hours": "Open 24Hrs for Emergencies. Specialty services by appointment with referal.",
@@ -88,66 +95,50 @@
       "id": 5
     },
     {
-      "id": 8,
-      "comment": "Testing!"
+      "id": 24,
+      "userId": 3,
+      "clinicId": 4,
+      "comment": "This place does great work and the employees are friendly!"
     },
     {
-      "id": 14,
-      "comment": "Testing!"
-    },
-    {
-      "id": 15,
-      "comment": "Testing!"
-    },
-    {
-      "userId": 1,
-      "comment": "Testing",
-      "id": 16
-    },
-    {
-      "userId": 1,
-      "comment": "Test",
-      "id": 17
-    },
-    {
-      "id": 18,
-      "comment": "hello"
-    },
-    {
-      "id": 20,
-      "userId": 1,
-      "clinicId": 2,
-      "comment": "I love this clinic"
-    },
-    {
-      "id": 21,
+      "id": 25,
       "userId": 1,
       "clinicId": 1,
-      "comment": "I love this place and the staff are friendly!"
+      "comment": "The employees are informative and willing to answer all my questions."
     },
     {
       "userId": 1,
       "clinicId": 6,
-      "comment": "Testing!",
-      "id": 22
+      "comment": "Great service and friendly staff.",
+      "id": 26
     },
     {
-      "id": 23,
       "userId": 1,
       "clinicId": 3,
-      "comment": "I love this place!"
+      "comment": "I love this place",
+      "id": 27
     }
   ],
   "favorites": [
     {
-      "id": 1,
-      "userId": 1,
-      "clinicId": 1
+      "clinicId": 2,
+      "userId": 3,
+      "id": 1
     },
     {
-      "clinicId": 6,
+      "clinicId": 1,
       "userId": 1,
       "id": 2
+    },
+    {
+      "clinicId": 1,
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "clinicId": 3,
+      "userId": 1,
+      "id": 4
     }
   ]
 }
