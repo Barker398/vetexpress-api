@@ -114,9 +114,9 @@
     },
     {
       "userId": 1,
-      "clinicId": 3,
+      "clinicId": 5,
       "comment": "I love this place",
-      "id": 27
+      "id": 28
     }
   ],
   "favorites": [
@@ -139,6 +139,16 @@
       "clinicId": 3,
       "userId": 1,
       "id": 4
+    },
+    {
+      "clinicId": 4,
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "clinicId": 1,
+      "userId": 1,
+      "id": 6
     }
   ]
 }
