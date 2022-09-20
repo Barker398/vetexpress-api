@@ -33,15 +33,6 @@
       "url": "images/Animal-house-vet.jpg"
     },
     {
-      "id": 2,
-      "name": "Brentwood Veterinary Clinic",
-      "address": "5009 Harpeth Dr Brentwood,TN 37027",
-      "services": "By appointment only. Wellness, Vaccines, spay and neuter, dentistry, and accupuncture.",
-      "hours": "Monday-Friady 7am-6pm, Saturday 8am-1pm",
-      "phoneNumber": "615-373-4777",
-      "url": "images/Brentwood-vet-clinic.jpg"
-    },
-    {
       "id": 3,
       "name": "Five Points Animal Hospital",
       "address": "1103 Woodland Street Nashville,TN 37206",
@@ -108,23 +99,12 @@
     },
     {
       "userId": 1,
-      "clinicId": 6,
-      "comment": "Great service and friendly staff.",
-      "id": 26
-    },
-    {
-      "userId": 1,
       "clinicId": 5,
-      "comment": "I love this place",
-      "id": 28
+      "comment": "Not the greatest clinic",
+      "id": 29
     }
   ],
   "favorites": [
-    {
-      "clinicId": 2,
-      "userId": 3,
-      "id": 1
-    },
     {
       "clinicId": 1,
       "userId": 1,
@@ -136,11 +116,6 @@
       "id": 3
     },
     {
-      "clinicId": 3,
-      "userId": 1,
-      "id": 4
-    },
-    {
       "clinicId": 4,
       "userId": 1,
       "id": 5
@@ -149,6 +124,16 @@
       "clinicId": 1,
       "userId": 1,
       "id": 6
+    },
+    {
+      "clinicId": 1,
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "clinicId": 7,
+      "userId": 1,
+      "id": 8
     }
   ]
 }
