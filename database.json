@@ -80,28 +80,28 @@
   ],
   "reviews": [
     {
+      "id": 1,
       "userId": 1,
       "clinicId": 7,
-      "comment": "Friendly service and waits are not too long.",
-      "id": 5
+      "comment": "Friendly service and waits are not too long."
     },
     {
-      "id": 24,
+      "id": 2,
       "userId": 3,
       "clinicId": 4,
       "comment": "This place does great work and the employees are friendly!"
     },
     {
-      "id": 25,
+      "id": 3,
       "userId": 1,
       "clinicId": 1,
       "comment": "The employees are informative and willing to answer all my questions."
     },
     {
+      "id": 4,
       "userId": 1,
       "clinicId": 5,
-      "comment": "Not the greatest clinic",
-      "id": 29
+      "comment": "Not the greatest clinic"
     }
   ],
   "favorites": [
